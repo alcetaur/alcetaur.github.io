@@ -77,13 +77,13 @@ body:after {
 }
 
 a {
-  color: #F95959;
+  color: #3773DE;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F95959;
+  color: #3773DE;
   outline: none;
   text-decoration: none;
 }
@@ -101,17 +101,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F95959;
+  background: #3773DE;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F95959;
+  background: #3773DE;
 }
 
 ::selection {
   color: #fff;
-  background: #F95959;
+  background: #3773DE;
 }
 
 .container-wrap {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 32px;
 }
 .fh5co-nav #fh5co-logo a span {
-  color: #F95959;
+  color: #3773DE;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #F95959 !important;
+  color: #3773DE !important;
   position: relative;
 }
 .fh5co-nav ul li.active > a:after {
@@ -612,7 +612,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: .3em;
   left: 0;
   font-size: 18px;
-  color: #F95959;
+  color: #3773DE;
 }
 .contact-info li a {
   color: #000;
@@ -671,7 +671,7 @@ input[type="text"] {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F95959;
+  color: #3674DF;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -825,7 +825,7 @@ input[type="text"] {
   transform: rotate(-180deg);
 }
 #fh5co-offcanvas ul li.active > a {
-  color: #F95959;
+  color: #3773DE;
 }
 
 .gototop {
@@ -995,23 +995,27 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #F95959;
-  color: #fff;
-  border: 2px solid #F95959;
+
+  margin: 30px auto;
+  padding: 0;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: #3674DF;
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #fa7272 !important;
-  border-color: #fa7272 !important;
+  background: #2b5cb2 !important;
 }
-.btn-primary.btn-outline {
-  background: transparent;
-  color: #F95959;
-  border: 2px solid #F95959;
-}
-.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F95959;
-  color: #fff;
-}
+
+
 
 .btn-success {
   background: #5cb85c;
@@ -1139,7 +1143,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F95959;
+  border-color: #3773DE;
 }
 
 .row-pb-md {
